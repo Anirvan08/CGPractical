@@ -74,3 +74,16 @@ using namespace std;
         initwindow(c*2,c*2);
         printaxis();
         matrix m;
+         m.read();
+        m.show();
+        m.draw();
+
+        m.readT();
+        m.transform();
+        m.show();
+        m.draw();
+        getch();
+        return 0;
+    }
+
+
